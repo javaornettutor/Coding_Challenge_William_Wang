@@ -1,0 +1,32 @@
+﻿.imageStyle {
+    width: 200px;
+    height: 200px;
+}
+table#imageBarTable {
+    border-collapse: collapse;
+}
+
+#imageBarTable tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+
+#imageBarTable tr:hover 
+{
+    background-color: #ccc;
+}
+
+#imageBarTable th 
+{
+    background-color: #fff;
+}
+
+#imageBarTable th, #imageBarTable td 
+{
+    padding: 3px 5px;
+}
+
+#imageBarTable td:hover 
+{
+    cursor: pointer;
+}
